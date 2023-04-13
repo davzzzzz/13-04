@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+/* espacio entre nav y principio de la página*/
+
+mark{
+    background-color: rgb(145, 190, 145);
+}
+.espacio{
+    width: 100%;
+    height: 30px;
+}
+.espacio1{
+    width: 100%;
+    height: 20px;
+
+}
+
+.espacioprueba{
+    width: 100%;
+    height: 20px;
+
+}
+
+
+.nav{
+    position: fixed;
+    width: 100%;
+    
+    
+}
+
+
+nav ul{
+    /* background-image: linear-gradient(rgba(94, 255, 0, 0),rgba(203, 253, 23, 0)),url(Hojas-gota-agua.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    border-radius: 15px;
+    list-style-type: none;
+    background-color: rgba(31, 48, 0, 0.918);
+    overflow: auto;
+    /* position:fixed; */
+    margin: auto;
+
+    width: 94%;
+    z-index: 1;
+}
+
+nav li{
+    float: left;
+}
+.lirigth{
+    float: right;
+
+}
+nav li a{
+    
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-size: 30px; */
+    /* font-weight: 500; */
+    font-size: 20px;
+}
+
+nav li a:hover{
+    color: rgb(0, 0, 0);
+    background-color:rgb(210, 255, 138);
+    
+}
+
+
+
+.hero{
+    background-image: linear-gradient(rgba(94, 255, 0, 0),rgba(203, 253, 23, 0)),url(Hojas-gota-agua.jpg);
+    width: 100%;
+    height: 750px;
+    background-color: azure;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.portada{
+    color: white;
+    padding: 200px;
+    text-align: center;
+    /* font-family:'Courier New', Courier, monospace; */
+    
+}
+.portada2{
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    text-align: center;
+    height: 40px;
+    /* font-family:'Courier New', Courier, monospace; */
+}
+
+
+.titulo{
+    text-align:left;
+    padding: 10px;
+    /* height: 40px; */
+}
+.titulo2{
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
+.titulo3{
+    /* perfil*/
+    text-align: left;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.text-large{
+    font-size: 100px;
+    
+    
+}
+.text-medium{
+    font-size: 55px;
+    
+    
+}
+.text-medium2{
+    font-size: 55px;
+    color: white;
+    
+}
+
+.contenedor{
+    width: 80%;
+    padding: 50px;
+    margin: auto;
+    /* background-color: rgba(106, 139, 15, 0.911); */
+    background-color: rgba(194, 221, 118, 0.973);
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 25px;
+
+}
+.contenedor2{
+    width:80%;
+    padding: 50px;
+    margin: auto;
+    background-color:rgb(204, 204, 204);
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.hoja{
+    width: 100%;
+    background-color: aliceblue;
+    
+    
+}
+
+.contenedor3{
+    width:80%;
+    padding: 50px;
+    margin: auto;
+    background-color: rgba(255, 82, 82, 0);
+    text-align: left;
+    margin-bottom: 25px;
+
+}
+
+
+
+.contenedor-tarjeta{
+    background-color:rgba(182, 8, 8, 0);
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: flex;
+    margin-bottom: 30px;
+
+    
+}
+.card{
+    width: 30%;
+    padding: 12px;
+    text-align: left;
+    background-color: rgb(197, 240, 197);
+    border-radius: 10px;
+    font-size: 20px;
+    margin: auto;
+}
+.card:hover{
+    transition: 0.6s;
+    transform: scale(1.2);
+    box-shadow:  0px 0px 25px rgb(127, 255, 212);
+}
+
+/* .contenedor4{
+    width:3%;
+    margin: 20px;
+    background-color: rgb(40, 61, 7);
+    text-align: center;
+    border-radius: 30px;
+    height: 30px;
+    overflow: auto;
+    justify-content:space-evenly;
+} */
+
+.p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* 
+Primera letra mayúscula
+
+p h2{
+    font-size: 30px;
+} */
+
+    
+
+
+
+.contenedor:hover{
+    box-shadow: 0px 0px 25px rgba(191, 247, 198, 0.973);
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+.contenedor2:hover{
+    box-shadow: 0px 0px 25px rgba(191, 247, 198, 0.973);
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+.imagen{
+    width: 100%;
+    /* background-color: blue; */
+    /* height: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.img{
+    width: 70%;
+    padding: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.img2{
+    width: 40%;
+    padding: 50px;
+    margin-bottom: 20px;
+    
+}
+.contenedortabla{
+    /* width: 100%;
+    background-color: bisque;
+    justify-content: space-evenly;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto; */
+
+    width:80%;
+    padding: 30px;
+    margin: auto;
+    background-color: rgba(255, 133, 133, 0);
+    text-align: left;
+    margin-bottom: 25px;
+    
+}
+table{
+    width: 100%;
+    border: 2px solid;
+    border-collapse: collapse;
+    
+   
+    
+}
+th{
+    border: 2px solid;
+    text-align: center;
+}
+
+td{
+    border: 2px solid;
+    text-align: center;
+}
+.imagentabla{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    /* padding: auto; */
+    /* height: auto; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content:space-evenly; */
+}
+/* 
+.img:hover{
+    transform: scale(1.2);
+    transition: transform 0.6s;
+} */
+
+.footer-color{
+    background-color: rgb(93, 107, 16);
+    text-align: left;
+}
+
+
+.footer{
+    background-color: rgba(127, 255, 212, 0);
+    width: 80%;
+    padding: 50px;
+    margin: auto;
+}
+
+footer ul{
+    list-style-type: none;
+    padding-bottom: 15px;
+    
+}
+
+footer li{
+    padding: 3px;
+    /* display: inline-block; */
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color: azure;
+    /* background-color: aquamarine; */
+}
+/* 
+.textfooter{
+    
+    padding: 50px;
+    /* color: white; */
+
+/* footer ul{
+
+    width: 100%;
+    overflow: auto;
+    list-style-type: none;
+    margin: auto;
+
+}
+
+footer li{
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+footer li a{
+    color: aqua;
+    text-decoration: none;
+    font-size: 15px;
+    overflow: auto;
+    margin-bottom: auto;
+
+} */
